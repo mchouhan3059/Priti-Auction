@@ -1,0 +1,263 @@
+* {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+:root {
+    --brown: #9C623E;
+    --brown_gray: #D49D7B;
+    --gray: #DBDEE6;
+    --grayalike: #7A7A7A;
+    --pink: #F3E3D9;
+}
+
+.brown {
+    background: var(--brown);
+    opacity: 1;
+}
+
+.Cbrown {
+    color: var(--brown);
+}
+
+.bgcolor {
+    background: #F5EFEB;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav-item>a {
+    color: black !important;
+}
+
+.brown_gradiant {
+    background: var(--Linear, linear-gradient(106deg, #683D22 23.27%, #42230F 87.09%));
+}
+
+.mli li {
+    margin: 0px 10px;
+}
+
+.brown_gray {
+    color: var(--brown_gray);
+}
+
+.text-gray {
+    color: var(--grayalike);
+}
+
+.fs-t {
+    font-size: 45px;
+}
+
+.max-940 {
+    max-width: 940px;
+    margin: auto;
+}
+
+.crossingline {
+    position: relative;
+    top: 100px;
+}
+
+.headstart::after {
+    content: '';
+    position: absolute;
+    width: 72px;
+    height: 7px;
+    margin: auto;
+    background-color: #9C623E;
+    left: 50%;
+    top: 16%;
+    transform: translateX(-50%);
+}
+
+.boaynot-border {
+    border-right: 1px solid;
+    border-image: url(../images/slice_border.svg) 10%;
+}
+
+.bg-cream {
+    background-color: #F3E3D9;
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+}
+
+.bg-skin {
+    background-color: #F3E3D9;
+    width: 150px;
+    height: 150px;
+    background-color: #EEC8B1;
+    right: 0px;
+}
+
+.rounded-5 {
+    border-radius: 10px;
+}
+
+.random-1 {
+    position: absolute;
+    right: 8%;
+    top: 300px;
+}
+
+.random-2 {
+    position: absolute;
+    right: 25%;
+    top: 200px;
+}
+
+.random-3 {
+    position: absolute;
+    left: 20%;
+    top: 310px;
+}
+
+.mousescrollset {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    background-color: #9C623E;
+    left: 50%;
+    top: 60px;
+    transform: translateX(-50%);
+}
+
+.darkBrown {
+    background: var(--Linear, linear-gradient(106deg, #683D22 23.27%, #42230F 87.09%));
+}
+
+.clip {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.br-15 {
+    border-radius: 15px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.first-hover .col:hover p {
+    background: var(--Linear, linear-gradient(106deg, #683D22 23.27%, #42230F 87.09%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.second-hover>.col:hover {
+    border: 1px solid var(--Linear, #683D22);
+    background: #FFF;
+    box-shadow: 3px 4px 34px 0px rgba(0, 0, 0, 0.12);
+}
+
+.round-30 {
+    width: 26px;
+    height: 26px;
+}
+
+.decore-none {
+    text-decoration: none;
+}
+
+.showonhover {
+    opacity: 0;
+    transition: 0.3s;
+
+}
+
+.second-hover .col {
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.second-hover .col:hover .showonhover {
+    opacity: 1;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.second-hover .col:hover button {
+    color: white;
+    background: var(--Linear, linear-gradient(106deg, #683D22 23.27%, #42230F 87.09%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid var(--Linear, #683D22);
+    box-shadow: 0px 4px 11px 0px rgba(210, 116, 58, 0.24);
+}
+
+.second-hover img {
+    height: 200px;
+}
+
+.shadow-br {
+    box-shadow: 0px 4px 11px 0px rgba(210, 116, 58, 0.44);
+}
+
+.setbg2 {
+    background-image: url(../images/whitechair.jpg), url(../images/hanging\ couch.jpg);
+    background-repeat: no-repeat;
+    background-position: 50px -17px, right top;
+    background-size: 260px, 350px;
+}
+
+.bg-pinki {
+    background-color: var(--pink);
+}
+
+.shadow-pink {
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.sethigh {
+    opacity: 0.1;
+    font-size: 45px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    padding: 14px 0px 0px;
+}
+
+.dashed {
+    background-image: url(../images/dashed.png);
+    background-repeat: no-repeat;
+    background-position: 46.5% 65%;
+}
+
+.fs-sm {
+    font-size: 13px;
+}
+
+.font-Newsreader {
+    font-family: 'Newsreader', sans-serif;
+}
+
+.third-hover:hover {
+    box-shadow: 0px 4px 39px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.third-hover:hover button{
+    opacity: 1 !important;
+}

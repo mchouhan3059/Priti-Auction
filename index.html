@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juggler's Auction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <hr class="brown m-0 py-3">
+    <header class="container-fluid bgcolor px-0">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container">
+                <a href="/" class="navbar-brand">
+                    <img src="images/logo.svg" class="img-fluid">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav ml-auto mli">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active ">
+                                Collection
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Help
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Tips & Tricks
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Winners
+                            </a>
+                        </li>
+                        <li>
+                            <button class="btn bg-dark text-white shadow-sm">Get Started</button>
+                        </li>
+                        <li>
+                            <button class="btn brown text-white shadow-sm">Log In</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid brown_gradiant">
+        <div class="container py-5 text-center text-white position-relative">
+            <div class="position-absolute w-100 Shazam">
+                <div class="bg-cream p-4 rounded-5 position-absolute">
+                    <figure class="p-3 rounded-5 bg-white mx-3 mb-1">
+                        <img src="images/note.svg" class="card-img-top">
+                    </figure>
+                    <p class="text-dark fs-5"><b class="fs-4">120</b>Years</p>
+                </div>
+                <div class="bg-skin p-4 rounded-5 position-absolute">
+                    <figure class="p-3 rounded-5 bg-white mx-3 mb-1">
+                        <img src="images/medal.svg" class="card-img-top">
+                    </figure>
+                    <p class="text-dark fs-6"><b class="fs-5">12</b>Bid So Far</p>
+                </div>
+
+                <div class="random-1">
+                    <figure>
+                        <img src="images/Rectangle 7.png" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="random-2">
+                    <figure>
+                        <img src="images/Rectangle 9.png" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="random-3">
+                    <figure>
+                        <img src="images/Rectangle 8.png" class="img-fluid">
+                    </figure>
+                </div>
+            </div>
+            <h1 class="mt-5 mb-3 fw-bold fs-t headstart">WORLD'S BIGGEST <br>
+                <span class="brown_gray">AUCTION PLATFORM</span>
+            </h1>
+            <p class="fs-5 mb-4 ">We Bring the showroom to you.</p>
+            <button class="btn bg-white px-4 py-2 mb-5 fs-6">Discover Now</button>
+            <div
+                class="row text-start max-940 bg-white p-3 rounded-3 shadow-sm row-cols-lg-5 row-cols-md-2 row-cols-1 justify-content-between align-items-center crossingline flex-column flex-lg-row gap-4">
+                <div class="col row gap-3 boaynot-border">
+                    <label for="" class="text-dark col-12 fw-bold fs-5">Location</label>
+                    <select name="" id="" class="border-0 text-secondary col-12">
+                        <option value="">Norway</option>
+                        <option value="">Norway</option>
+                        <option value="">Norway</option>
+                    </select>
+                </div>
+                <div class="col row gap-3 boaynot-border">
+                    <label for="" class="text-dark col-12 fw-bold fs-5">Year</label>
+                    <select name="" id="" class="border-0 text-secondary col-12">
+                        <option value="">950 AD</option>
+                        <option value="">950 AD</option>
+                        <option value="">950 AD</option>
+                    </select>
+                </div>
+                <div class="col row gap-3 boaynot-border">
+                    <label for="" class="text-dark col-12 fw-bold fs-5">Region</label>
+                    <select name="" id="" class="border-0 text-secondary col-12">
+                        <option value="">Luthernisium</option>
+                        <option value="">Luthernisium</option>
+                        <option value="">Luthernisium</option>
+                    </select>
+                </div>
+                <div class="col row gap-3">
+                    <label for="" class="text-dark col-12 fw-bold fs-5">Type</label>
+                    <select name="" id="" class="border-0 text-secondary col-12">
+                        <option value="">Weapons</option>
+                        <option value="">Weapons</option>
+                        <option value="">Weapons</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <button class="btn brown text-white w-100 py-2 shadow-sm "><img src="images/search-status.svg"
+                            class="img-fluid">
+                        Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container text-center mt-5 pt-5 position-relative">
+            <img src="images/Rectangle 12.png">
+            <div class="mousescrollset"></div>
+            <p class="mt-2 fs-6">Explore Auctions</p>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="container pt-5">
+            <div class="row my-5">
+                <div class="col darkBrown clip fw-bolder">
+                    <h2>Our Auction Collections:</h2>
+                </div>
+                <div class="col justify-content-between text-end fs-4 ">
+                    <a href="" class="Cbrown">
+                        <p>View All</p>
+                    </a>
+                </div>
+                <div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 g-lg-5 g-1 first-hover p-0 mx-auto">
+                    <div class="col">
+                        <div class="card border-0 br-15 bg-gray m-3 p-4">
+                            <img src="images/Ellipse 17.svg" alt="" class="img-fluid br-50">
+                        </div>
+                        <p class="text-center text-gray fs-5">Home Decore</p>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 br-15 bg-gray m-3 p-4">
+                            <img src="images/somemirror.svg" alt="" class="img-fluid br-50">
+                        </div>
+                        <p class="text-center text-gray fs-5">Antique Furniture</p>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 br-15 bg-gray m-3 p-4">
+                            <img src="images/greenchair.png" alt="" class="img-fluid br-50">
+                        </div>
+                        <p class="text-center text-gray fs-5">Recycle Furniture</p>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 br-15 bg-gray m-3 p-4">
+                            <img src="images/saddlewood.png" alt="" class="img-fluid br-15">
+                        </div>
+                        <p class="text-center text-gray fs-5">Furniture</p>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 br-15 bg-gray m-3 p-4">
+                            <img src="images/stool.svg" alt="" class="img-fluid br-50">
+                        </div>
+                        <p class="text-center text-gray fs-5">Living Room</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="container">
+            <h2 class="brown_gradiant clip text-center fw-bold pt-5 my-5">Featured Products</h2>
+            <div class="row row-cols-lg-4 row-cols-1 pt-5 second-hover my-5 g-5">
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-5">
+                            <p class="bg-dark text-white text-center rounded-3">50% OFF</p>
+                        </div>
+                        <div class="col-2 align-center">
+                            <p class="br-50 text-white brown_gradiant text-center round-30">1</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/drawer.svg" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Modern Storage</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-5">
+                            <p class="bg-dark text-white text-center rounded-3">50% OFF</p>
+                        </div>
+                        <div class="col-2 align-center">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/oilwoodchair.svg" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Modern Storage</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-4 d-flex">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white ms-2">HOT</p>
+                        </div>
+                        <div class="col-2 align-center">
+                            <p class="br-50 text-white brown_gradiant text-center round-30">2</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/sofa.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Modern Storage</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-4 d-flex">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white ms-2">HOT</p>
+                        </div>
+                        <div class="col-2 align-center">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/woodchair.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Modern Storage</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-5">
+                            <p class="bg-dark text-white text-center rounded-3">50% OFF</p>
+                        </div>
+                        <div class="col-2 align-center">
+                            <p class="br-50 text-white brown_gradiant text-center round-30">1</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/drawer.svg" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Modern Storage</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-5">
+                            <p class="bg-dark text-white text-center rounded-3">50% OFF</p>
+                        </div>
+                        <div class="col-2 align-center">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/oilwoodchair.svg" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Modern Storage</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-4 d-flex">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white ms-2">HOT</p>
+                        </div>
+                        <div class="col-2 align-center">
+                            <p class="br-50 text-white brown_gradiant text-center round-30">2</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/sofa.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Modern Storage</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-4 d-flex">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white ms-2">HOT</p>
+                        </div>
+                        <div class="col-2 align-center">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/woodchair.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Modern Storage</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb-5">
+                <button class="btn text-white brown px-5 py-2 fs-5 shadow-br">Load More</button>
+            </div>
+        </div>
+        <div class="container my-5 brown text-white text-center py-5 setbg2">
+            <h2>Auctions starting right <br>
+                now 50% off</h2>
+            <button class="btn bg-white Cbrown py-2 px-3 mt-5 mb-3">Discover Now</button>
+        </div>
+
+        <div class="container pt-5">
+            <h2 class="text-center my-5 brown_gradiant clip fw-bold">How It Works?</h2>
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-5 dashed">
+                <div class="col">
+                    <div class="row bg-pinki px-4 py-3 rounded-5 justify-content-between me-lg-5 shadow-pink">
+                        <div class="box col-2 bg-white text-center rounded-5">
+                            <img src="images/note.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col 2">
+                            <h2 class="text-end sethigh">01</h2>
+                        </div>
+                        <h2 class="fs-4 px-0 pt-3">Browse our catalog</h2>
+                        <p class="fw-light px-0">Sit lectus eleifend id consectetur
+                            amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row bg-pinki px-4 py-3 rounded-5 justify-content-between me-lg-5 shadow-pink">
+                        <div class="box col-2 bg-white text-center rounded-5">
+                            <img src="images/note.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col 2">
+                            <h2 class="text-end sethigh">02</h2>
+                        </div>
+                        <h2 class="fs-4 px-0 pt-3"> Bid for bargains</h2>
+                        <p class="fw-light px-0">Sit lectus eleifend id consectetur
+                            amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row bg-pinki px-4 py-3 rounded-5 justify-content-between me-lg-5 shadow-pink">
+                        <div class="box col-2 bg-white text-center rounded-5">
+                            <img src="images/note.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col 2">
+                            <h2 class="text-end sethigh">03</h2>
+                        </div>
+                        <h2 class="fs-4 px-0 pt-3">Collect your winnings</h2>
+                        <p class="fw-light px-0">Sit lectus eleifend id consectetur
+                            amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="brown_gradiant clip text-center fw-bold pt-5 my-5">Special Products</h2>
+            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 row-cols-1 pt-5 second-hover my-5 g-5">
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-5">
+                            <p class="bg-dark text-white text-center rounded-3">50% OFF</p>
+                        </div>
+                        <div class="col-2 align-center">
+                            <p class="br-50 text-white brown_gradiant text-center round-30">1</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/s1.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Sko Shoe Rack Grey</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-5">
+                            <p class="bg-dark text-white text-center rounded-3">50% OFF</p>
+                        </div>
+                        <div class="col-2 align-center">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/s2.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Teardrop Patio Chair</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-4 d-flex">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white ms-2">HOT</p>
+                        </div>
+                        <div class="col-2 align-center">
+                            <p class="br-50 text-white brown_gradiant text-center round-30">2</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/s3.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Cosgrave Coffee Table</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-4 d-flex">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white ms-2">HOT</p>
+                        </div>
+                        <div class="col-2 align-center">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/s4.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Shelves Wall Mounted</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-5">
+                            <p class="bg-dark text-white text-center rounded-3">50% OFF</p>
+                        </div>
+                        <div class="col-2 align-center">
+                            <p class="br-50 text-white brown_gradiant text-center round-30">1</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/s5.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Floating Shelves Wall </p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-5">
+                            <p class="bg-dark text-white text-center rounded-3">50% OFF</p>
+                        </div>
+                        <div class="col-2 align-center">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/s6.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">BONZY Floor Chair </p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-4 d-flex">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white ms-2">HOT</p>
+                        </div>
+                        <div class="col-2 align-center">
+                            <p class="br-50 text-white brown_gradiant text-center round-30">2</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/s7.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Zero Gravity Chair</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-between py-4 px-3">
+                        <div class="col-4 d-flex">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white ms-2">HOT</p>
+                        </div>
+                        <div class="col-2 align-center">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/s8.png" class="img-fluid">
+                    </div>
+                    <p class="brown_gradiant my-3 clip fw-bold">Armen Living Morden</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <b class="fs-4">00:00:05</b>
+                        </div>
+                        <div class="col text-end">
+                            <b class="text-success fs-5">$ 2.97</b>
+                        </div>
+                        <div class="px-3 my-4">
+                            <button class="w-100 btn brown text-white py-2">Bid Now</button>
+                        </div>
+                        <div class="text-center py-2 showonhover">
+                            <hr>
+                            <a href="#" class="decore-none">buy it Now for $99</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb-5">
+                <button class="btn text-white brown px-5 py-2 fs-5 shadow-br">Load More</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="brown_gradiant clip text-center fw-bold pt-5 my-5">Special Products</h2>
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
+                <div class="col">
+                    <div class="card mb-3 border-0 position-relative third-hover">
+                        <div class="position-absolute p-3">
+                            <p class="bg-dark text-white text-center rounded-3 px-3">60%</p>
+                            <p class="px-3 text-center brown_gradiant rounded-3 text-white">HOT</p>
+                        </div>
+                        <div class="row g-0 p-3">
+                            <div class="col-md-6 ps-5 pt-3">
+                                <img src="images/TriStool.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title Cbrown fw-bold">Dressing Table</h5>
+                                    <p class="card-text text-gray fs-sm">New Balance Arishi <br> Sport V1</p>
+                                    <div
+                                        class="row row-cols-3 text-center align-items-center justify-content-between ms-1">
+                                        <div class="col flex-column row align-items-center fw-bold"><b
+                                                class="brown text-white br-50 row align-items-center justify-content-center"
+                                                style="width: 40px; height:32px;">00</b> days</div>
+                                        <div class="col flex-column row align-items-center fw-bold"><b
+                                                class="brown text-white br-50 row align-items-center justify-content-center"
+                                                style="width: 40px; height:32px;">00</b> hours</div>
+                                        <div class="col flex-column row align-items-center fw-bold"><b
+                                                class="brown text-white br-50 row align-items-center justify-content-center"
+                                                style="width: 40px; height:32px;">00</b> mins</div>
+                                    </div>
+                                    <p><b class="fs-4 font-Newsreader">$18.00</b></p>
+                                </div>
+                            </div>
+                            <div class="showonhover">
+                                <button class="brown text-white btn py-3 w-100 rounded-5">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+</body>
+<script src="scripts/script.js"></script>
+
+</html>

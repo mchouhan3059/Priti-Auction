@@ -1,0 +1,77 @@
+@media only screen and (min-width:200px) and (max-width: 575px) {
+    .headstart {
+        font-size: 30px;
+    }
+
+    .crossingline {
+        position: static;
+    }
+
+    .headstart {
+        font-size: 30px;
+    }
+
+    .headstart::after {
+        top: 10%;
+    }
+
+    .Shazam {
+        display: none;
+    }
+
+    .boaynot-border {
+        border: none;
+    }
+
+    .showonhover {
+        opacity: 1;
+    }
+
+    .setbg2 {
+        background-image: url(../images/hanging\ couch.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .dashed {
+        background: white;
+    }
+
+    .second-hover img {
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width: 1024px) {
+    .Shazam {
+        display: none;
+    }
+
+    .headstart::after {
+        top: 10%;
+    }
+
+    .boaynot-border {
+        border: none;
+    }
+
+    .showonhover {
+        opacity: 1;
+    }
+
+    .setbg2 {
+        background-image: url(../images/hanging\ couch.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .second-hover img {
+        height: 250px;
+    }
+
+    .dashed{
+        background-image: none;
+    }
+}
